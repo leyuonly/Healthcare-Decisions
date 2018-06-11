@@ -53,4 +53,8 @@ if __name__ == "__main__":
     sys = int(BP[0].strip())
     dia = int(BP[1].strip())
 
-    stghtn(sys,dia)
+    stghtn(sys,dia) # run command
+    end = ""
+    while end == "":  #pause and keeps results on screen
+        end = input("Press Enter to exit ")
+        end = 1
